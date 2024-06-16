@@ -1,0 +1,60 @@
+Date: 16/6/2024
+Time: 1:55
+Phone Number: +9876543211
+Message: Hello Rohan Sharma,You have completed 1 courses, which is less than the required 3 courses.Please take the necessary actions to improve your performance.
+--------------------
+Date: 16/6/2024
+Time: 1:55
+Phone Number: +9876543212
+Message: Hello Nisha Kulkarni,You have completed 2 courses, which is less than the required 3 courses.Please take the necessary actions to improve your performance.
+--------------------
+Date: 16/6/2024
+Time: 1:56
+Phone Number: +9876543214
+Message: Hello Meena Chopra,Your attendance is 50.00%, which is below the required 60%.Your recent test score is 40.00%, which is below or equal to the required 40%.You have completed 1 courses, which is less than the required 3 courses.Please take the necessary actions to improve your performance.
+--------------------
+Date: 16/6/2024
+Time: 1:56
+Phone Number: +9876543215
+Message: Hello Sunita Gowda,You have completed 2 courses, which is less than the required 3 courses.Please take the necessary actions to improve your performance.
+--------------------
+Date: 16/6/2024
+Time: 1:56
+Phone Number: +9876543218
+Message: Hello Anita Raj,You have completed 2 courses, which is less than the required 3 courses.Please take the necessary actions to improve your performance.
+--------------------
+Date: 16/6/2024
+Time: 1:56
+Phone Number: +9876543219
+Message: Hello Deepak Joshi,You have completed 2 courses, which is less than the required 3 courses.Please take the necessary actions to improve your performance.
+--------------------
+Date: 16/6/2024
+Time: 1:56
+Phone Number: +9869657364
+Message: Hello Ayush Jain,Your attendance is 45.00%, which is below the required 60%.Your recent test score is 37.00%, which is below or equal to the required 40%.Please take the necessary actions to improve your performance.
+--------------------
+Date: 16/6/2024
+Time: 3:6
+Phone Number: +9876543211
+Message: Hello Rohan Sharma,You have completed 1 courses, which is less than the required 3 courses.Please take the necessary actions to improve your performance.
+--------------------
+Date: 16/6/2024
+Time: 3:6
+Phone Number: +9876543214
+Message: Hello Meena Chopra,Your attendance is 50.00%, which is below the required 60%.Your recent test score is 40.00%, which is below or equal to the required 40%.You have completed 1 courses, which is less than the required 3 courses.Please take the necessary actions to improve your performance.
+--------------------
+Date: 16/6/2024
+Time: 3:7
+Phone Number: +9869657364
+Message: Hello Ayush Jain,Your attendance is 45.00%, which is below the required 60%.Your recent test score is 37.00%, which is below or equal to the required 40%.Please take the necessary actions to improve your performance.
+--------------------
+Date: 16/6/2024
+Time: 3:7
+Phone Number: +9876543214
+Message: Hello Meena Chopra,Your attendance is 50.00%, which is below the required 60%.Your recent test score is 40.00%, which is below or equal to the required 40%.You have completed 1 courses, which is less than the required 3 courses.Please take the necessary actions to improve your performance.
+--------------------
+Date: 16/6/2024
+Time: 3:8
+Phone Number: +9869657364
+Message: Hello Ayush Jain,Your attendance is 45.00%, which is below the required 60%.Your recent test score is 37.00%, which is below or equal to the required 40%.Please take the necessary actions to improve your performance.
+--------------------

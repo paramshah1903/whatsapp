@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Mentor Lookup</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 400px;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        text-align: center;
+      }
+
+      h1 {
+        color: #333;
+      }
+
+      input {
+        padding: 10px;
+        width: calc(100% - 24px);
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: calc(100% - 24px);
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+
+      .mentor {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #f9f9f9;
+        margin-top: 20px;
+        text-align: left;
+      }
+
+      .mentor span {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Find Your Mentor</h1>
+      <input type="number" id="studentId" placeholder="Enter Student ID" />
+      <button onclick="fetchMentor()">Get Mentor</button>
+      <div id="mentorResult"></div>
+    </div>
+
+    <script>
+      function fetchMentor() {
+        const studentId = document.getElementById("studentId").value;
+        const mentorResult = document.getElementById("mentorResult");
+        console.log(studentId);
+        fetch(`http://localhost:3000/student/${studentId}/mentors`)
+          .then((response) => response.json())
+          .then((data) => {
+            console.log(data[0].mentor_name);
+            if (data) {
+              mentorResult.innerHTML = `
+                            <div class="mentor">
+                                <span>Mentor Name:</span> ${data[0].mentor_name}<br>
+                                <span>Score:</span> ${data[0].student_mentor_score}
+                            </div>
+                        `;
+            } else {
+              mentorResult.innerHTML = `<div class="mentor">No mentor found for this student.</div>`;
+            }
+          })
+          .catch((error) => {
+            console.error("Error fetching mentor:", error);
+            mentorResult.innerHTML = `<div class="mentor">Failed to fetch mentor.</div>`;
+          });
+      }
+    </script>
+  </body>
+</html>
